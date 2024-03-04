@@ -1,0 +1,107 @@
+###
+POST http://localhost:3000/movies HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Sorry to Bother You",
+    "year": 2019,
+    "language": "English"
+}
+
+###
+GET http://localhost:3000/movies HTTP/1.1
+
+###
+GET http://localhost:3000/movies/62971661a61c9106d7d10974 HTTP/1.1
+
+###
+GET http://localhost:3000/movies/?year=2019 HTTP/1.1
+
+
+###
+
+PUT http://localhost:3000/movies/6297137384fe712b18103eb0 HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Sorry to Bother You",
+    "year": 2018,
+    "language": "English"
+}
+
+###
+DELETE http://localhost:3000/movies/628455f6a9ca90529936fb05 HTTP/1.1
+
+
+###
+POST http://localhost:3000/movies HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Eternal Sunshine Of The Spotless Mind",
+    "year": 2004,
+    "language": "English"
+}
+
+###
+POST http://localhost:3000/movies HTTP/1.1
+content-type: application/json
+
+{
+    "title": "High Fidelity",
+    "year": 2000,
+    "language": "English"
+}
+
+###
+POST http://localhost:3000/movies HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Anchorman",
+    "year": 2004,
+    "language": "English"
+}
+
+
+###
+POST http://localhost:3000/movies HTTP/1.1
+content-type: application/json
+
+{
+    "title": "No Country For Old Men",
+    "year": 2007,
+    "language": "English"
+}
+
+
+###
+POST http://localhost:3000/movies HTTP/1.1
+content-type: application/json
+
+{
+    "title": "A Serious Man",
+    "year": 2009,
+    "language": "English"
+}
+
+
+###
+POST http://localhost:3000/movies HTTP/1.1
+content-type: application/json
+
+{
+    "title": "City Of God",
+    "year": 2003,
+    "language": "Portuguese"
+}
+
+###
+POST http://localhost:3000/movies HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Parasite",
+    "year": 2019,
+    "language": "Korean"
+}
